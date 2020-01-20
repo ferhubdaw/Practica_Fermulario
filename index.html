@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+
+<body>
+    <center>
+        <div class="inicio"><h1>Bienvenido</h1></div>
+        <div class="fondo">
+    <div id="inic">
+    <h2>Logeate</h2><input type="button" value="Log In" class="Login" id="logear">
+    
+    <h2>Registrate</h2><input type="button" value="Registrarse" class="signin" id="regi">
+<br>
+<br>
+</div>
+
+<p id="p"></p>
+<div id="logeate">
+   
+        
+        <p id="d"></p>
+        
+    <form>
+        <br>
+        <label for="Email">Email o numero: </label>&nbsp;<input type="text" id="email2" name="email2" required><br><br>
+        <label for="ContLog">Contraseña: </label>&nbsp;<input type="password" id="ContLog" name="ContLog" required><br><br><br><br>
+        <input type="button" name="mostrar" id="mostrar" class="mostrar" value="Mostrar contraseña" onclick="showContra()"><br><br><br>
+        <input type="submit" value="Enviar post resgistro" id="enviar2" onclick="conectarse(); return false">
+        <input type="submit" value="Enviar sin registro" id="enviar3" onclick="conectar(); return false"><br><br><br>
+        <input type="reset" value="Borrar"><br><br><br>
+        
+    </form>
+    <a href="index.html">Volver</a>
+    <br><br>
+
+</div>
+<div id="registrarse"> 
+    
+    <form onsubmit="validar(); return false">
+        <br>
+        <label for="Nombre">*Nombre: </label>&nbsp;<input type="text" name="Nombre" id="Nombre" required><br><br>
+        <label for="Apellido">*Apellido: </label>&nbsp;<input type="text" name="Apellido" id="Apellido" required><br><br>
+        <label for="email">*Email o numero:</label>&nbsp;<input type="text" name="email" id="email" required><br><br>
+        <label for="Contraseña">*Contraseña: </label>&nbsp;<input type="password"  id="contraseña" required><br><br>
+        <label for="Repetir">*Repetir Contraseña: </label>&nbsp;<input type="password"  id="repetir" required><br><br>
+        <label for="Nacimiento">Fecha de nacimiento: </label>&nbsp;<input type="date" name="Nacimiento" id="Nacimiento"><br><br>
+        <input type="button" value="Enviar" name="Enviar" id="enviar1">
+        <input type="reset" value="Borrar" name="Borrar"><br><br><br>
+        <br>
+        <label class="obli">*campo obligatorio</label>
+    </form>
+    <br>
+    <a href="index.html">Volver</a>
+    <br><br>
+
+</div>
+<div id="final">
+    <h1>Has accedido con exito, se estan creando cookies</h1>
+    <br>
+    <a href="index.html" onclick="desconectar()">Desconectarse</a>
+    <br><br>
+</div>
+</center>
+</body>
+<script src="codigo.js"></script>
+</html>

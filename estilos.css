@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(114, 114, 114);
+    
+}
+div.sign{
+    position: absolute;
+    left: 37.5%;
+    
+}
+.log{
+    position: absolute;
+    left: 57.5%;
+    
+}
+
+
+a :hover{
+    background-color: rgb(216, 211, 211);
+    font-size: large;
+}
+
+#logeate{
+    display: none;
+}
+#registrarse{
+    display: none;
+}
+#final{
+    display: none;
+}
+#p{
+    background-color: red;
+    z-index: 17;
+}
+.fondo{
+    background-color: rgb(207, 207, 207);
+    width: 28vw;
+    border: 3px solid rgb(255, 255, 255);
+    
+    
+}
+.inicio{
+    background-color: rgb(235, 235, 235);
+    width: 28vw;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 12vw;
+}
+label{
+    font-size: 1.2vw;
+}
+.obli{
+    font-size: 1vw;
+}
+#d{
+    background-color: rgb(14, 82, 14);
+}
